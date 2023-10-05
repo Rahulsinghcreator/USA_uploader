@@ -27,11 +27,11 @@ DEF_FORMAT = "480"
 from dotenv import load_dotenv
 load_dotenv()
 os.makedirs("./downloads", exist_ok=True)
-API_ID = 24025904
-API_HASH = "99df12238aa5f847a4b52e8132c543fb"
-BOT_TOKEN = "6442716787:AAFdjZtgLLLnhoQyxUQd3nWnjbRLJwZH-48"
-AUTH_USERS = 5442868227,5637026604
-sudo_users = [-1001956777140]
+API_ID = 26363547
+API_HASH = "cc5817e859e43a003585ed79569208da"
+BOT_TOKEN = "6353487242:AAFG_Hd9tE0ZLXHbG81AQVrRHmrmZ8apazw"
+AUTH_USERS = 6004318404,1318247204,1511103739
+sudo_users = [-4066470338]
 bot = Client(
     "bot",
     bot_token=BOT_TOKEN,
@@ -452,7 +452,7 @@ async def account_login(bot: Client, m: Message):
 
                 name = f'{str(count).zfill(3)}) {name1} {res}'
             except Exception:
-                res = "NA"
+                res = "aditya"
 
             # if "youtu" in url:
             # if ytf == f"'bestvideo[height<={raw_text2}][ext=mp4]+bestaudio[ext=m4a]'" or "acecwply" in url:
